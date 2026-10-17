@@ -67,7 +67,7 @@ The `output/` directory is generated when the program runs.
 ### Windows 11
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/hidden-url-finder.git
+git clone https://github.com/NurM0hammad/-Hidden_URL_Finder
 cd hidden-url-finder
 
 py -m venv .venv
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ### Kali Linux
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hidden-url-finder.git
+git clone https://github.com/NurM0hammad/-Hidden_URL_Finder
 cd hidden-url-finder
 
 python3 -m venv .venv
@@ -175,9 +175,9 @@ Choose an appropriate open-source license before distributing the project. If yo
 
 ## 👨‍💻 Author
 
-**YOUR NAME**
+**PY NUR**
 
-GitHub: https://github.com/YOUR_USERNAME
+https://github.com/NurM0hammad/-Hidden_URL_Finder
 
 ---
 
