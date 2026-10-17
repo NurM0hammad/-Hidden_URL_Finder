@@ -1,0 +1,9 @@
+# Small starter list. Add paths only if authorized.
+robots.txt
+sitemap.xml
+sitemap_index.xml
+api/
+api/docs
+docs/
+health
+status

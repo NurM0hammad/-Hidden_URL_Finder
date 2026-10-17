@@ -1,0 +1,8 @@
+2026-10-17 23:11:42,979 | INFO | Starting scoped discovery: https://example.com/
+2026-10-17 23:11:52,107 | WARNING | Wayback lookup unavailable: ReadTimeout
+2026-10-17 23:12:01,478 | INFO | Manual search query (not executed): site:example.com
+2026-10-17 23:12:01,478 | INFO | Manual search query (not executed): site:example.com filetype:pdf
+2026-10-17 23:12:01,479 | INFO | Manual search query (not executed): site:example.com inurl:api
+2026-10-17 23:12:01,479 | INFO | Manual search query (not executed): site:example.com inurl:docs
+2026-10-17 23:12:01,479 | INFO | Manual search query (not executed): site:example.com ext:json
+2026-10-17 23:12:09,552 | INFO | Done. 7 unique URLs. Reports: C:\Users\NUR MOHAMMAD\OneDrive\Desktop\Document\hidden-url-finder\hidden-url-finder\hidden-url-finder\output\report.json ; C:\Users\NUR MOHAMMAD\OneDrive\Desktop\Document\hidden-url-finder\hidden-url-finder\hidden-url-finder\output\report.html

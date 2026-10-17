@@ -1,0 +1,72 @@
+{
+  "target": "https://example.com/",
+  "scope": {
+    "allowed_hosts": [
+      "example.com",
+      "www.example.com"
+    ],
+    "allow_subdomains": false
+  },
+  "summary": {
+    "unique_urls": 7,
+    "redacted_pattern_findings": 0
+  },
+  "urls": [
+    {
+      "url": "https://example.com/",
+      "source": "landing_page",
+      "status": "200"
+    },
+    {
+      "url": "https://example.com/a",
+      "source": "javascript_endpoint",
+      "status": "404",
+      "classification": "not_found"
+    },
+    {
+      "url": "https://example.com/g",
+      "source": "javascript_endpoint",
+      "status": "404",
+      "classification": "not_found"
+    },
+    {
+      "url": "https://example.com/p",
+      "source": "javascript_endpoint",
+      "status": "404",
+      "classification": "not_found"
+    },
+    {
+      "url": "https://example.com/s.js",
+      "source": "javascript_file",
+      "status": "200",
+      "classification": "candidate"
+    },
+    {
+      "url": "https://example.com/style",
+      "source": "javascript_endpoint",
+      "status": "404",
+      "classification": "not_found"
+    },
+    {
+      "url": "https://example.com/svg",
+      "source": "javascript_endpoint",
+      "status": "404",
+      "classification": "not_found"
+    }
+  ],
+  "redacted_pattern_findings": [],
+  "manual_search_queries": [
+    "site:example.com",
+    "site:example.com filetype:pdf",
+    "site:example.com inurl:api",
+    "site:example.com inurl:docs",
+    "site:example.com ext:json"
+  ],
+  "notes": [
+    "Use only on owned/explicitly authorized systems.",
+    "Discovered URLs are candidates, not vulnerabilities.",
+    "Redirects are not followed; out-of-scope hosts are rejected.",
+    "Secret matches are redacted and may be false positives."
+  ],
+  "generated_at_utc": "2026-10-17T17:12:09.551075+00:00"
+}

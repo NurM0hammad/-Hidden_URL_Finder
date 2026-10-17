@@ -1,0 +1,10 @@
+target: "https://example.com"
+allowed_hosts: ["example.com", "www.example.com"]
+allow_subdomains: false
+request_delay_seconds: 1.0
+request_timeout_seconds: 8
+max_requests: 60
+max_pages: 100
+max_js_files: 20
+max_wayback_results: 100
+user_agent: "HiddenURLFinder/1.0 (+authorized security inventory)"
